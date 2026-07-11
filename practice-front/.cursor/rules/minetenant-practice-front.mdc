@@ -1,0 +1,29 @@
+---
+description: MineTenant practice-front rules
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+このリポジトリは、MineTenantのフロント担当がReact + TypeScript + Viteを練習するためのものです。
+
+初学者が読むため、コードや説明を複雑にしすぎないでください。
+
+守ること:
+
+- 変更は小さくする
+- Reactの基本から外れすぎない
+- ライブラリを勝手に増やさない
+- 難しい専門用語を使う時は短く説明する
+- すわ・櫻井が自分で説明できるコードにする
+- `npm run build` が通る状態を保つ
+
+今は入れないもの:
+
+- Redux
+- React Router
+- Tailwind CSS
+- バックエンド接続
+- WebSocket
+- Minecraft連携
+- ログイン
