@@ -27,6 +27,7 @@ export function ProductCard({
         <span className="product-store">{product.storeName}</span>
         <strong>{product.name}</strong>
         <span className="product-meta">
+          <span>{product.description}</span>
           <span>{product.price.toLocaleString()}円</span>
           <span className={isSoldOut ? 'sold-out' : ''}>
             {isSoldOut ? '売り切れ' : `在庫 ${product.stock}`}

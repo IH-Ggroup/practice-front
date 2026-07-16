@@ -45,4 +45,15 @@ export const initialProducts: Product[] = [
     pointReward: 42,
     imageStyle: 'amethyst',
   },
+  {
+    id: 5,
+    name: '風船',
+    description:
+      '見る人を楽しませてくれる商品。',
+    price: 3200,
+    stock: 3,
+    storeName: 'Block Interior',
+    pointReward: 42,
+    imageStyle: 'amethyst',
+  }
 ]
